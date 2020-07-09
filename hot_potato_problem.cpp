@@ -8,13 +8,14 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 #include <queue>
 
 using namespace std;  // Without this you need to preface every call with std::
 
 
 
-string hot_potato(string nameList[], int num)
+string hot_potato(vector<string> nameList, int num)
 {
     // First we want to push all the values in the list on a queue.
     
@@ -31,7 +32,10 @@ string hot_potato(string nameList[], int num)
 
 int main()
 {
-    string s[] = {"Austin", "Ethan", "Mason", "Matthew", "Zach"};
+    // To make this easier, this was changed from an array of strings
+    // to a "vector" of strings.   Very similar, but vector manages
+    // it's memory better and will be easier to work with.
+    vector<string> s = {"Austin", "Ethan", "Mason", "Matthew", "Zach"};
 
     cout << "Hot potato: `" << hot_potato(s, 2) << '`' << endl;
     cout << "Hot potato: `" << hot_potato(s, 9) << '`' << endl;
