@@ -32,10 +32,10 @@ public class ReverseString
 
     public static void main (String[] args)
 	{
-        String str = "desrever neeb evah I";
+            String str = "desrever neeb evah I";
 
-		str = reverse(str);
-		System.out.println(str);
+            str = reverse(str);
+            System.out.println(str);
 	}
     
 }
