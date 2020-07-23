@@ -62,7 +62,7 @@ def isPig(str):
     Test a given string and determine if it is Pig Latin.
     This is advanced.
     """
-    _pigpat = re.compile(r'.ay(\s|[?.])')
+    _pigpat = re.compile(r'(\S*ay)\s*[?.!,]?')
     # If we find more than one pig pattern we'll assume it's Pig Latin
     # This won't work when there are words like say or hay in the
     # text, but this is good for our purposes.
