@@ -29,7 +29,8 @@ def main():
                   ('Iay maay luentfay niay veroay ixsay illionmay ormsfay foay ommunicationcay!','I am fluent in over six million forms of communication!'),
                   ('ren\'tAay ouyay aay ittlelay hortsay orfay aay tormtrooperSay?','Aren\'t you a little short for a Stormtrooper?'),
                   ('Iay indfay ouryay acklay foay aithfay isturbingday.','I find your lack of faith disturbing.'),
-                  ('The Force runs strong in my family. My father has it. I have it. And     my sister has it! ','heTay orceFay unsray trongsay niay ymay amilyfay. yMay atherfay ashay tiay. Iay avehay tiay. ndAay     ymay istersay ashay tiay! ')
+                  ('The Force runs strong in my family. My father has it. I have it. And     my sister has it! ','heTay orceFay unsray trongsay niay ymay amilyfay. yMay atherfay ashay tiay. Iay avehay tiay. ndAay     ymay istersay ashay tiay! '),
+                  (' ', ' ')
                   ]
 
 
