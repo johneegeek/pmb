@@ -1,7 +1,5 @@
 import pig as pig
 from colorama import Fore as fg
-from colorama import Back as bg
-from colorama import Style as sty
 import colorama
 
 
